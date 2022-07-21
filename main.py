@@ -72,7 +72,16 @@ def print_issues(search):
     # my_last_three_issues = jira.search_issues('reporter = currentUser() order by created desc', maxResults=3)
 
     for issue in issues_in_proj:
-        print('{}: {}: {}: {}'.format(issue.key, issue.fields.issuetype.name, issue.fields.summary, issue.fields.assignee))
+        # todo export to cvs
+        # todo export to excel
+        # todo export to html
+        # todo export to saltcorn
+        # todo send emails
+        # todo create jira task graph
+        print('{}: {}: {}: {}: {}: {}'.format(issue.key, issue.fields.issuetype.name,
+                                      issue.fields.priority,
+                                      issue.fields.status,
+                                      issue.fields.summary, issue.fields.assignee))
 
 
 def print_issue(name):
