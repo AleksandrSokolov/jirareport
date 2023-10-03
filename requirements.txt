@@ -41,7 +41,7 @@ SecretStorage==3.3.1
 shellingham==1.4.0
 tomlkit==0.11.1
 typing_extensions==4.3.0
-urllib3==1.26.10
+urllib3==1.26.17
 virtualenv==20.15.1
 virtualenv-clone==0.5.7
 webencodings==0.5.1
