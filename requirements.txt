@@ -45,3 +45,4 @@ urllib3==1.26.10
 virtualenv==20.15.1
 virtualenv-clone==0.5.7
 webencodings==0.5.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
