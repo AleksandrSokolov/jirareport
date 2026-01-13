@@ -10,7 +10,7 @@ crashtest==0.3.1
 cryptography==3.4.8
 defusedxml==0.7.1
 distlib==0.3.4
-filelock==3.7.1
+filelock==3.20.3
 html5lib==1.1
 idna==3.3
 jeepney==0.7.1
@@ -41,7 +41,7 @@ SecretStorage==3.3.1
 shellingham==1.4.0
 tomlkit==0.11.1
 typing_extensions==4.3.0
-urllib3==1.26.10
+urllib3==2.6.3
 virtualenv==20.15.1
 virtualenv-clone==0.5.7
 webencodings==0.5.1
